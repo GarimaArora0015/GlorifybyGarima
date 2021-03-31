@@ -1,0 +1,41 @@
+.image img{
+	width: 50%;
+	height: 750px;
+	display: flex;
+	position: absolute;
+	object-fit: cover;
+
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	float: right;
+
+}
+
+.input{
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.input li{
+	list-style: none;
+	color: #87bdd8;
+}
+
+.input h1{
+	color: #667292;
+	font-family: serif;
+	font-weight: normal;
+
+}
+
+.input p{
+	color: #87bdd8;
+}

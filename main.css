@@ -1,0 +1,262 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+}
+.container-fluid{
+	background-color: #d6cbd3;
+	color: #eca1a6;
+	border-bottom:  #eca1a6 4px solid;
+	height: 100px;
+	display: flex;
+	width:99%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+    padding-top: 0px;
+	align-items: center;
+}
+nav{
+	text-align: right;
+	flex: 1;
+    color: #e06377;
+    word-spacing: 50px;
+    font-size: 20px;
+}
+#exampleSlider {
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+@media (max-width: 767px) 
+{
+	#exampleSlider 
+	{
+	  border-color: transparent;
+	}
+}
+#exampleSlider .MS-content {
+	overflow: hidden;
+	white-space: nowrap;
+}
+@media (max-width: 767px) {
+	#exampleSlider .MS-content {
+	  margin: 0;
+	}
+}
+#exampleSlider .MS-content .item {
+	display: inline-block;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	border-right: none;
+	width: 100%;
+}
+@media (max-width: 1250px) 
+{
+	#exampleSlider .MS-content .item 
+	{
+	  width: 100%;
+	}
+}
+@media (max-width: 992px) 
+{
+	#exampleSlider .MS-content .item 
+	{
+	  width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	#exampleSlider .MS-content .item {
+	  width: 100%;
+	}
+}
+#exampleSlider .MS-content .item p {
+	text-align: center;
+	line-height: 1;
+	vertical-align: middle;
+	margin: 0;
+}
+#exampleSlider .MS-content .item img{
+	height: 400px;
+	width: 100%;
+}
+#exampleSlider .MS-controls button {
+	display: block;
+	position: absolute;
+	border: none;
+	background: transparent;
+	font-size: 30px;
+	outline: 0;
+	top: 50%;
+}
+@media (max-width: 767px) {
+	#exampleSlider .MS-controls button {
+	  display: none;
+	}
+}
+#exampleSlider .MS-controls button:hover {
+	cursor: pointer;
+	display: block;
+}
+#exampleSlider .MS-controls .MS-left {
+	left: 10px;
+}
+@media (max-width: 992px) {
+	#exampleSlider .MS-controls .MS-left {
+	  left: -2px;
+	}
+}
+#exampleSlider .MS-controls .MS-right {
+	right: 10px;
+}
+@media (max-width: 992px) {
+	#exampleSlider .MS-controls .MS-right {
+	  right: -2px;
+	}
+}
+#Newsletter{
+	text-align: center;
+	background-color:  #35424a;
+	padding: 10px;
+	height: 50px;
+	width: 98%;
+}
+.image1 img{
+	margin-left: 2%;
+  	height: 350px;
+  	width: 95%;
+}
+.button{
+	height: 35px;
+	background-color: #e8491d;
+	color: #ffffff;
+	padding-right: 20px;
+	padding-left: 20px;
+	border:0;
+	cursor: pointer;
+}
+#Newsletter h1{
+	float: left;
+	color: #ffffff;
+
+}
+#Newsletter form{
+	float: right;
+	margin-top: 10px;
+}
+#Newsletter input[type="text"]{
+height: 30px;
+width: 250px;
+}
+.headingtop {
+	text-align: center;
+	color: #667292;
+	font-family: sans-serif;
+	margin: auto;
+	font-weight: normal;
+}
+.img-container {
+	float: left;
+	width: 40%;
+	height: 50%;
+	padding: 5px;
+	margin-left: 5%;
+	
+}
+  
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.img-container:hover{
+	box-shadow: 5px 5px 5px #aaaaaa;
+	transform: translateY(15px);
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+.beautybonanza img{
+	height: 90px;
+	width: 1000px;
+	padding-left: 120px;
+}
+.heading{
+	text-align: center;
+	color: #667292;
+	font-family: sans-serif;
+	margin: auto;
+	font-weight: normal;
+}
+.img1{
+	padding-left: 340px;
+	height: 400px;
+	width: 600px;
+}
+.img1:hover{
+	cursor: pointer;
+}
+.img2{
+	width: 1200px;
+	margin: auto;
+}
+.img2 img:hover{
+    box-shadow: 5px 5px 5px #aaaaaa;
+	transform: translateY(10px);
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+.category1 {
+	display: block;
+	height: 300px;
+	width: 800px;
+	padding-left: 50px;
+}
+.category1 img:hover{
+	box-shadow: 5px 5px 5px 5px #d6cbd3;
+	cursor: pointer;
+}
+.img3 img{
+	width: 95%;
+	margin-left: 25px;
+}
+.img3 img:hover{
+	box-shadow: 5px 5px 5px #d6cbd3;
+	opacity: 0.9;
+	cursor: pointer;
+}
+.abovefooter li{
+	list-style: none;
+	color: #eca1a6;
+	display:flex;
+}
+.abovefooter a:hover{
+	color: #ffffff;
+}
+.abovefooter{
+	background-color: #d3d3d3;
+	height: 150px;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.abovefooter a{
+	text-decoration: none;
+	line-height: 27px;
+}
+.Footer{
+	background-color: #d6cbd3;
+	color: #eca1a6;
+	height: 50px;
+	padding-top: 20px;
+	background-color: #e8491d;
+	text-align: center;
+	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+}
+#text1{
+	position: absolute;
+	right: 80px;
+    color: black;
+    padding-left: 70%;  
+}
