@@ -1,2 +1,2 @@
 # GlorifybyGarima
-Full Stack Website using PHP and javascript
+Full Stack Website using PHP and JavaScript
